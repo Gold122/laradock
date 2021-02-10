@@ -177,6 +177,9 @@ services:
         - "${WORKSPACE_BROWSERSYNC_HOST_PORT}:3000"
         - "${WORKSPACE_BROWSERSYNC_UI_HOST_PORT}:3001"
         - "${WORKSPACE_VUE_CLI_SERVE_HOST_PORT}:8080"
+        - "8081:8081"
+        - "8082:8082"
+        - "8083:8083"
         - "${WORKSPACE_VUE_CLI_UI_HOST_PORT}:8000"
         - "${WORKSPACE_ANGULAR_CLI_SERVE_HOST_PORT}:4200"
       tty: true
